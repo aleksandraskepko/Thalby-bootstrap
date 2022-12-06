@@ -77,7 +77,200 @@ h1 {
     right: 0;
     width: 100%;
     display: block;
+    bottom: 0;
   }
+}
+
+.best_sellers {
+  padding: 60px 0 248px;
+}
+.best_sellers .mb-4, .best_sellers .my-4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.best_sellers .guides {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.best_sellers .ebooks {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 88px;
+}
+.best_sellers .card {
+  border: none;
+}
+.best_sellers .card .card-body h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.best_sellers .card .card-body p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.best_sellers .card .card-body a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.people_and_society {
+  padding: 146px 0 121px;
+  background: rgba(204, 204, 204, 0.3);
+}
+.people_and_society h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people_and_society p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.people_and_society a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.people_and_society .banner_custom_position {
+  position: relative;
+  right: 0px;
+  bottom: 80px;
+}
+
+.culture_and_heritage {
+  padding: 168px 0 108px;
+  background: rgba(204, 204, 204, 0.6);
+}
+.culture_and_heritage .col-lg-6 {
+  text-align: right;
+}
+@media screen and (max-width: 992px) {
+  .culture_and_heritage .col-lg-6 {
+    text-align: center;
+  }
+}
+.culture_and_heritage .col-lg-6 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture_and_heritage .col-lg-6 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture_and_heritage .col-lg-6 a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.culture_and_heritage .banner_custom_position {
+  position: relative;
+  right: -30px;
+  bottom: 80px;
+}
+@media screen and (max-width: 992px) {
+  .culture_and_heritage .banner_custom_position {
+    right: 0;
+    bottom: -35px;
+  }
+}
+
+.power_and_politics {
+  padding: 168px 0 142px;
+  background: rgba(204, 204, 204, 0.3);
+}
+.power_and_politics h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.power_and_politics p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.power_and_politics a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.power_and_politics .banner_custom_position {
+  position: relative;
+  right: 0px;
+  bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

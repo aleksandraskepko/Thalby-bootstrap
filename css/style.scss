@@ -84,5 +84,194 @@ h1 {
     right: 0;
     width: 100%;
     display: block;
+    bottom: 0;
+  }
+}
+.best_sellers {
+  padding: 60px 0 248px;
+  .mb-4, .my-4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  .guides {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+  }
+  .ebooks {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 88px;
+  }
+  .card {
+    border: none;
+    .card-body {
+      h5 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+      }
+      p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+      }
+      a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #000000;
+      }
+    }
+  }
+}
+.people_and_society {
+  padding: 146px 0 121px;
+  background: rgba(204, 204, 204, 0.3);
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+
+  a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  .banner_custom_position {
+    position: relative;
+    right: 0px;
+    bottom: 80px;
+  }
+}
+.culture_and_heritage {
+  padding: 168px 0 108px;
+  background: rgba(204, 204, 204, 0.6);
+  .col-lg-6 {
+    text-align: right;
+    @include max-screen(992px){
+      text-align: center;
+    }
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+  a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  }
+  .banner_custom_position {
+    position: relative;
+    right: -30px;
+    bottom: 80px;
+    @include max-screen(992px){
+      right: 0;
+      bottom: -35px;
+    }
+  }
+}
+.power_and_politics {
+  padding: 168px 0 142px;
+  background: rgba(204, 204, 204, 0.3);
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 39px;
+  }
+  a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  .banner_custom_position {
+    position: relative;
+    right: 0px;
+    bottom: 80px;
   }
 }
