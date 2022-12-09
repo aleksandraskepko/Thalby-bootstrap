@@ -4,6 +4,11 @@ header .navbar-brand {
   margin-left: -40px;
   top: 10px;
 }
+@media screen and (max-width: 834px) {
+  header .navbar-light .navbar-nav {
+    padding-left: 7px;
+  }
+}
 header .navbar-light .navbar-nav .nav-link {
   font-family: "Roboto";
   font-style: normal;
@@ -15,6 +20,11 @@ header .navbar-light .navbar-nav .nav-link {
 header .soc-header {
   list-style: none;
   align-items: flex-start;
+}
+@media screen and (max-width: 834px) {
+  header .soc-header {
+    margin-left: -33px;
+  }
 }
 header .soc-header li:first-of-type {
   margin-right: 15px;
@@ -84,6 +94,16 @@ h1 {
 .best_sellers {
   padding: 60px 0 248px;
 }
+@media screen and (max-width: 834px) {
+  .best_sellers {
+    padding: 60px 0 80px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .best_sellers {
+    padding: 60px 0 40px;
+  }
+}
 .best_sellers .mb-4, .best_sellers .my-4 {
   font-family: "Roboto";
   font-style: normal;
@@ -113,8 +133,18 @@ h1 {
   color: #000000;
   margin-bottom: 88px;
 }
+@media screen and (max-width: 834px) {
+  .best_sellers .ebooks {
+    margin-bottom: 60px;
+  }
+}
 .best_sellers .card {
   border: none;
+}
+@media screen and (max-width: 428px) {
+  .best_sellers .card .card-body {
+    margin-bottom: 35px;
+  }
 }
 .best_sellers .card .card-body h5 {
   font-family: "Roboto";
@@ -149,6 +179,16 @@ h1 {
   padding: 76px 0 51px;
   background: rgba(204, 204, 204, 0.3);
 }
+@media screen and (max-width: 428px) {
+  .people_and_society {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 834px) {
+  .people_and_society img {
+    width: 95%;
+  }
+}
 .people_and_society h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -158,6 +198,18 @@ h1 {
   color: #000000;
   margin-bottom: 31px;
 }
+@media screen and (max-width: 834px) {
+  .people_and_society h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .people_and_society h3 {
+    margin-top: 25px;
+  }
+}
 .people_and_society p {
   font-family: "Roboto";
   font-style: normal;
@@ -166,6 +218,13 @@ h1 {
   line-height: 42px;
   color: #000000;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 834px) {
+  .people_and_society p {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
 }
 .people_and_society a {
   font-family: "Roboto";
@@ -181,6 +240,16 @@ h1 {
   background-color: rgba(204, 204, 204, 0.6);
   padding: 76px 0 51px;
 }
+@media screen and (max-width: 428px) {
+  .culture_and_heritage {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 834px) {
+  .culture_and_heritage img {
+    width: 95%;
+  }
+}
 .culture_and_heritage h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -191,6 +260,18 @@ h1 {
   color: #000000;
   margin-bottom: 31px;
 }
+@media screen and (max-width: 834px) {
+  .culture_and_heritage h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .culture_and_heritage h3 {
+    margin-top: 25px;
+  }
+}
 .culture_and_heritage p {
   font-family: "Roboto";
   font-style: normal;
@@ -200,6 +281,13 @@ h1 {
   text-align: right;
   color: #000000;
   margin-bottom: 31px;
+}
+@media screen and (max-width: 834px) {
+  .culture_and_heritage p {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
 }
 .culture_and_heritage a {
   font-family: "Roboto";
@@ -216,6 +304,16 @@ h1 {
   padding: 76px 0 51px;
   background: rgba(204, 204, 204, 0.3);
 }
+@media screen and (max-width: 428px) {
+  .power_and_politics {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 834px) {
+  .power_and_politics img {
+    width: 95%;
+  }
+}
 .power_and_politics h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -225,6 +323,18 @@ h1 {
   color: #000000;
   margin-bottom: 31px;
 }
+@media screen and (max-width: 428px) {
+  .power_and_politics h3 {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .power_and_politics h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 21px;
+  }
+}
 .power_and_politics p {
   font-family: "Roboto";
   font-style: normal;
@@ -233,6 +343,13 @@ h1 {
   line-height: 42px;
   color: #000000;
   margin-bottom: 39px;
+}
+@media screen and (max-width: 834px) {
+  .power_and_politics p {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
 }
 .power_and_politics a {
   font-family: "Roboto";
@@ -247,6 +364,16 @@ h1 {
 .guide {
   padding: 190px 0 163px;
 }
+@media screen and (max-width: 834px) {
+  .guide {
+    padding: 140px 0 60px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .guide {
+    padding: 80px 0 60px;
+  }
+}
 .guide h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -256,6 +383,12 @@ h1 {
   color: #000000;
   margin-bottom: 69px;
 }
+@media screen and (max-width: 428px) {
+  .guide h3 {
+    font-size: 34px;
+    margin-bottom: 49px;
+  }
+}
 .guide .col-md-4 {
   font-family: "Roboto";
   font-style: normal;
@@ -264,6 +397,11 @@ h1 {
   line-height: 35px;
   color: #000000;
   margin-bottom: 111px;
+}
+@media screen and (max-width: 428px) {
+  .guide .col-md-4 {
+    margin-bottom: 55px;
+  }
 }
 .guide .col-md-4:before {
   content: "";
@@ -291,6 +429,10 @@ h1 {
   background-color: #D399FF;
 }
 
+.interviews .row {
+  margin-right: unset;
+  margin-left: unset;
+}
 .interviews h3 {
   margin-bottom: 290px;
   font-family: "Roboto";
@@ -301,6 +443,28 @@ h1 {
   text-align: center;
   color: #000000;
 }
+@media screen and (max-width: 834px) {
+  .interviews h3 {
+    margin-bottom: 255px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .interviews h3 {
+    margin-bottom: 230px;
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .interviews h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .interviews {
+    background-color: #F0F0F0;
+    padding: 90px 0 30px;
+  }
+}
 .interviews .grey_bg {
   height: 480px;
   background-color: #F0F0F0;
@@ -310,12 +474,39 @@ h1 {
     height: auto;
   }
 }
+@media screen and (max-width: 428px) {
+  .interviews .grey_bg {
+    background-color: unset;
+    height: unset;
+  }
+}
 .interviews article {
   position: relative;
   top: -188px;
 }
+@media screen and (max-width: 834px) {
+  .interviews article {
+    top: -160px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .interviews article {
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 40px 50px;
+  }
+  .interviews article:last-of-type {
+    margin-bottom: 0;
+  }
+}
 .interviews article .card-img, .interviews article .card-img-bottom, .interviews article .card-img-top {
   width: unset;
+}
+@media screen and (max-width: 834px) {
+  .interviews article .card-img, .interviews article .card-img-bottom, .interviews article .card-img-top {
+    width: inherit;
+  }
 }
 .interviews article h5 {
   font-family: "Roboto";
@@ -379,7 +570,7 @@ h1 {
   text-align: center;
   color: #A0A0A0;
 }
-.keep_in_touch .touch .form-group {
+.keep_in_touch .touch .form-control {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -406,21 +597,52 @@ h1 {
 }
 
 footer {
-  padding: 51px 0 60px;
+  padding: 51px 0 16px;
   background-color: #020202;
 }
-footer .container .logo2 {
-  margin-bottom: 45px;
-}
-footer .container .soc-footer {
+footer .soc-footer {
   list-style: none;
   align-items: flex-start;
+  margin-left: -60px;
 }
-footer .container .soc-footer li:first-of-type {
-  margin-right: 23px;
+footer .soc-footer li {
+  margin-top: 37px;
+  margin-left: 22px;
 }
-footer .container .soc-footer li:last-of-type {
-  margin-left: 21px;
+footer .links {
+  padding: initial;
+  list-style: none;
+}
+footer .links span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+footer .links li {
+  margin-bottom: 10px;
+}
+footer .links li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+footer .links li:nth-child(1) {
+  margin-bottom: 26px;
+}
+footer p {
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
