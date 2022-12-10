@@ -73,7 +73,7 @@ h1 {
 .main_banner {
   background-color: #F0EFEB;
   padding: 90px 0;
-  @include max-screen(834px){
+  @include max-screen(992px){
     text-align: center;
   }
   @include max-screen(428px){
@@ -103,7 +103,11 @@ h1 {
     &:hover {
       color: #000000;
       background-color: #FFFFFF;
-      transform: scale(1.1);
+    }
+    @include min-screen(1000px) {
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -722,10 +726,6 @@ footer {
       margin-top: 37px;
       margin-left: 22px;
     }
-    @include max-screen(428px){
-      margin-left: 75px;
-    }
-
   }
   .links {
     padding: initial;

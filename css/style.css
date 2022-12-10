@@ -67,7 +67,7 @@ h1 {
   background-color: #F0EFEB;
   padding: 90px 0;
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 992px) {
   .main_banner {
     text-align: center;
   }
@@ -102,7 +102,11 @@ h1 {
 .main_banner .btn-dark:hover {
   color: #000000;
   background-color: #FFFFFF;
-  transform: scale(1.1);
+}
+@media screen and (min-width: 1000px) {
+  .main_banner .btn-dark:hover {
+    transform: scale(1.1);
+  }
 }
 
 .banner_custom_position {
@@ -767,11 +771,6 @@ footer .soc-footer {
 footer .soc-footer li {
   margin-top: 37px;
   margin-left: 22px;
-}
-@media screen and (max-width: 428px) {
-  footer .soc-footer {
-    margin-left: 75px;
-  }
 }
 footer .links {
   padding: initial;
