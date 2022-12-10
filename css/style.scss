@@ -3,6 +3,11 @@
     @content;
   }
 }
+@mixin min-screen($res) {
+  @media screen and (min-width: $res) {
+    @content;
+  }
+}
 header {
   .navbar-brand {
     position: absolute;
@@ -56,10 +61,24 @@ h1 {
   line-height: 70px;
   color: #000000;
   margin-bottom: 42px;
+  @include max-screen(428px){
+    font-size: 55px;
+    line-height: 60px;
+    text-align: center;
+  }
+  @include max-screen(834px){
+    text-align: center;
+  }
 }
 .main_banner {
   background-color: #F0EFEB;
   padding: 90px 0;
+  @include max-screen(834px){
+    text-align: center;
+  }
+  @include max-screen(428px){
+    text-align: center;
+  }
  p {
    font-family: 'Roboto';
    font-style: normal;
@@ -94,14 +113,21 @@ h1 {
   }
 }
 .best_sellers {
-  padding: 60px 0 248px;
+  padding: 60px 0 200px;
   @include max-screen(834px){
     padding:60px 0 80px;
   }
   @include max-screen(428px){
     padding: 60px 0 40px;
   }
-  .mb-4, .my-4 {
+  @include min-screen(768px){
+    .owl-item {
+      .col-md-4 {
+        max-width: unset;
+      }
+    }
+  }
+   h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -115,7 +141,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 23px;
     color: #000000;
     margin-bottom: 47px;
@@ -124,7 +150,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 23px;
     text-align: center;
     color: #000000;
@@ -133,12 +159,19 @@ h1 {
       margin-bottom: 60px;
     }
   }
+  .owl-item {
+    .card {
+      margin-top: 30px;
+    }
+  }
   .card {
     border: none;
+
     .card-body {
-      @include max-screen(428px){
-        margin-bottom: 35px;
+      @include max-screen(428px) {
+        margin-bottom: 10px;
       }
+
       h5 {
         font-family: 'Roboto';
         font-style: normal;
@@ -148,6 +181,7 @@ h1 {
         text-align: center;
         color: #000000;
       }
+
       p {
         font-family: 'Roboto';
         font-style: normal;
@@ -157,6 +191,7 @@ h1 {
         text-align: center;
         color: #000000;
       }
+
       a {
         font-family: 'Roboto';
         font-style: normal;
@@ -166,6 +201,64 @@ h1 {
         text-align: center;
         text-decoration-line: underline;
         color: #000000;
+      }
+    }
+  }
+  @include max-screen(992px) {
+    .owl-dots {
+      text-align: center;
+
+      .owl-dot {
+        span {
+          display: inline-block;
+          width: 50px;
+          height: 3px;
+          background-color: #4e555b;
+          margin: 5px;
+          margin-top: 65px;
+          @include max-screen(428px){
+            margin-top: 0;
+            width: 30px;
+          }
+        }
+      }
+      .owl-dot.active {
+        span {
+          background-color: #A0A0A0;
+        }
+      }
+    }
+  }
+  .owl-nav {
+    .owl-prev {
+      &:before {
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free";
+      content: "\f053";
+      font-size: 30px;
+      color: #4e555b;
+        position: absolute;
+        top: 225px;
+        left: -40px;
+    }
+      @include max-screen(992px){
+        display: none;
+      }
+    }
+    .owl-next {
+      &:after {
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free";
+        content: "\f053";
+        font-size: 30px;
+        color: #4e555b;
+        position: absolute;
+        top: 225px;
+        right: -40px;
+        transform: rotate(180deg);
+      }
+      @include max-screen(992px){
+        display: none;
       }
     }
   }
@@ -227,8 +320,12 @@ h1 {
 .culture_and_heritage {
   background-color: rgba(204, 204, 204, 0.6);
   padding: 76px 0 51px;
+  text-align: right;
   @include max-screen(428px){
     text-align: center;
+    .col-12 {
+      margin-bottom: 30px;
+    }
   }
   @include max-screen(834px) {
     img {
@@ -241,7 +338,6 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: right;
     color: #000000;
     margin-bottom: 31px;
     @include max-screen(834px){
@@ -259,7 +355,6 @@ h1 {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    text-align: right;
     color: #000000;
     margin-bottom: 31px;
     @include max-screen(834px){
@@ -277,6 +372,9 @@ h1 {
     text-align: right;
     text-decoration-line: underline;
     color: #000000;
+    @include max-screen(428px){
+      margin-bottom: 15px;
+    }
   }
 }
 .power_and_politics {
@@ -552,10 +650,18 @@ h1 {
 footer {
   padding: 51px 0 16px;
   background-color: #020202;
+  @include max-screen(428px){
+    .logo {
+      text-align: center;
+    }
   .soc-footer {
     list-style: none;
     align-items: flex-start;
     margin-left: -60px;
+    @include max-screen(428px){
+      margin-left: 75px;
+    }
+  }
     li {
       margin-top: 37px;
       margin-left: 22px;
