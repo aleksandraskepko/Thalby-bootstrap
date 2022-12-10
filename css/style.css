@@ -94,9 +94,15 @@ h1 {
   line-height: 20px;
   color: #FFFFFF;
   background: #000000;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 100px;
   padding: 7px 23px 9px;
+  transition: 1s;
+}
+.main_banner .btn-dark:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  transform: scale(1.1);
 }
 
 .banner_custom_position {
@@ -203,6 +209,10 @@ h1 {
   text-align: center;
   text-decoration-line: underline;
   color: #000000;
+  transition: 1s;
+}
+.best_sellers .card .card-body a:hover {
+  color: #4e555b;
 }
 @media screen and (max-width: 992px) {
   .best_sellers .owl-dots {
@@ -269,6 +279,12 @@ h1 {
     text-align: center;
   }
 }
+.people_and_society img {
+  transition: 2s;
+}
+.people_and_society img:hover {
+  transform: scale(0.8);
+}
 @media screen and (max-width: 834px) {
   .people_and_society img {
     width: 95%;
@@ -319,6 +335,10 @@ h1 {
   line-height: 20px;
   text-decoration-line: underline;
   color: #000000;
+  transition: 1s;
+}
+.people_and_society a:hover {
+  color: #4e555b;
 }
 
 .culture_and_heritage {
@@ -333,6 +353,12 @@ h1 {
   .culture_and_heritage .col-12 {
     margin-bottom: 30px;
   }
+}
+.culture_and_heritage img {
+  transition: 2s;
+}
+.culture_and_heritage img:hover {
+  transform: scale(0.8);
 }
 @media screen and (max-width: 834px) {
   .culture_and_heritage img {
@@ -385,6 +411,10 @@ h1 {
   text-align: right;
   text-decoration-line: underline;
   color: #000000;
+  transition: 1s;
+}
+.culture_and_heritage a:hover {
+  color: #4e555b;
 }
 @media screen and (max-width: 428px) {
   .culture_and_heritage a {
@@ -400,6 +430,12 @@ h1 {
   .power_and_politics {
     text-align: center;
   }
+}
+.power_and_politics img {
+  transition: 2s;
+}
+.power_and_politics img:hover {
+  transform: scale(0.8);
 }
 @media screen and (max-width: 834px) {
   .power_and_politics img {
@@ -451,6 +487,10 @@ h1 {
   line-height: 20px;
   text-decoration-line: underline;
   color: #000000;
+  transition: 1s;
+}
+.power_and_politics a:hover {
+  color: #4e555b;
 }
 
 .guide {
@@ -504,6 +544,7 @@ h1 {
   margin: auto;
   border-radius: 50%;
   margin-bottom: 24px;
+  animation: pulsing 2s infinite;
 }
 .guide .col-md-4:nth-child(2):before {
   background-color: #33D3BC;
@@ -521,6 +562,17 @@ h1 {
   background-color: #D399FF;
 }
 
+@keyframes pulsing {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}
 .interviews .row {
   margin-right: unset;
   margin-left: unset;
@@ -628,6 +680,10 @@ h1 {
   text-align: center;
   text-decoration-line: underline;
   color: #000000;
+  transition: 1s;
+}
+.interviews article a:hover {
+  color: #4e555b;
 }
 
 .keep_in_touch {
@@ -676,7 +732,7 @@ h1 {
 }
 .keep_in_touch .touch .btn-dark {
   background: #000000;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 100px;
   font-family: "Roboto";
   font-style: normal;
@@ -686,6 +742,12 @@ h1 {
   text-align: center;
   color: #FFFFFF;
   padding: 8px 28px 10px;
+  transition: 1s;
+}
+.keep_in_touch .touch .btn-dark:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  transform: scale(1.1);
 }
 
 footer {
@@ -694,9 +756,6 @@ footer {
 }
 @media screen and (max-width: 428px) {
   footer {
-    text-align: center;
-  }
-  footer .logo {
     text-align: center;
   }
 }
