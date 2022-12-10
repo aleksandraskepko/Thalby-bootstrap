@@ -651,21 +651,23 @@ footer {
   padding: 51px 0 16px;
   background-color: #020202;
   @include max-screen(428px){
+    text-align: center;
     .logo {
       text-align: center;
     }
+  }
   .soc-footer {
     list-style: none;
     align-items: flex-start;
     margin-left: -60px;
-    @include max-screen(428px){
-      margin-left: 75px;
-    }
-  }
     li {
       margin-top: 37px;
       margin-left: 22px;
     }
+    @include max-screen(428px){
+      margin-left: 75px;
+    }
+
   }
   .links {
     padding: initial;

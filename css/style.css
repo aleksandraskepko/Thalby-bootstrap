@@ -693,24 +693,25 @@ footer {
   background-color: #020202;
 }
 @media screen and (max-width: 428px) {
+  footer {
+    text-align: center;
+  }
   footer .logo {
     text-align: center;
   }
-  footer .soc-footer {
-    list-style: none;
-    align-items: flex-start;
-    margin-left: -60px;
-  }
 }
-@media screen and (max-width: 428px) and (max-width: 428px) {
-  footer .soc-footer {
-    margin-left: 75px;
-  }
+footer .soc-footer {
+  list-style: none;
+  align-items: flex-start;
+  margin-left: -60px;
+}
+footer .soc-footer li {
+  margin-top: 37px;
+  margin-left: 22px;
 }
 @media screen and (max-width: 428px) {
-  footer li {
-    margin-top: 37px;
-    margin-left: 22px;
+  footer .soc-footer {
+    margin-left: 75px;
   }
 }
 footer .links {
