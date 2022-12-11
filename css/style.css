@@ -10,7 +10,7 @@ header .navbar-brand {
   }
 }
 header .navbar-light .navbar-nav .nav-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -42,7 +42,7 @@ header .soc-header li:nth-child(2) {
 }
 
 h1 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -78,7 +78,7 @@ h1 {
   }
 }
 .main_banner p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -87,7 +87,7 @@ h1 {
   margin-bottom: 26px;
 }
 .main_banner .btn-dark {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -142,7 +142,7 @@ h1 {
   }
 }
 .best_sellers h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -152,7 +152,7 @@ h1 {
   margin-bottom: 27px;
 }
 .best_sellers .guides {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -161,7 +161,7 @@ h1 {
   margin-bottom: 47px;
 }
 .best_sellers .ebooks {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -187,7 +187,7 @@ h1 {
   }
 }
 .best_sellers .card .card-body h5 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -196,7 +196,7 @@ h1 {
   color: #000000;
 }
 .best_sellers .card .card-body p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -205,7 +205,7 @@ h1 {
   color: #000000;
 }
 .best_sellers .card .card-body a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -295,7 +295,7 @@ h1 {
   }
 }
 .people_and_society h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -316,7 +316,7 @@ h1 {
   }
 }
 .people_and_society p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -332,7 +332,7 @@ h1 {
   }
 }
 .people_and_society a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -370,7 +370,7 @@ h1 {
   }
 }
 .culture_and_heritage h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -391,7 +391,7 @@ h1 {
   }
 }
 .culture_and_heritage p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -407,7 +407,7 @@ h1 {
   }
 }
 .culture_and_heritage a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -447,7 +447,7 @@ h1 {
   }
 }
 .power_and_politics h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -468,7 +468,7 @@ h1 {
   }
 }
 .power_and_politics p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -484,7 +484,7 @@ h1 {
   }
 }
 .power_and_politics a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -511,7 +511,7 @@ h1 {
   }
 }
 .guide h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -526,7 +526,7 @@ h1 {
   }
 }
 .guide .col-md-4 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -583,7 +583,7 @@ h1 {
 }
 .interviews h3 {
   margin-bottom: 290px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -657,7 +657,7 @@ h1 {
   }
 }
 .interviews article h5 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -667,7 +667,7 @@ h1 {
   color: #000000;
 }
 .interviews article p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -676,7 +676,7 @@ h1 {
   color: #000000;
 }
 .interviews article a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -694,7 +694,7 @@ h1 {
   padding: 79px 0 88px;
 }
 .keep_in_touch h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -704,7 +704,7 @@ h1 {
   margin-bottom: 9px;
 }
 .keep_in_touch p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -714,7 +714,7 @@ h1 {
   margin-bottom: 26px;
 }
 .keep_in_touch .touch {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -723,7 +723,7 @@ h1 {
   color: #A0A0A0;
 }
 .keep_in_touch .touch .form-control {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -738,7 +738,7 @@ h1 {
   background: #000000;
   border: 2px solid #000000;
   border-radius: 100px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -777,7 +777,7 @@ footer .links {
   list-style: none;
 }
 footer .links span {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -788,7 +788,7 @@ footer .links li {
   margin-bottom: 10px;
 }
 footer .links li a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -800,7 +800,7 @@ footer .links li:nth-child(1) {
 }
 footer p {
   margin-top: 20px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
