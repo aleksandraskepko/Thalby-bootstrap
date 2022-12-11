@@ -289,7 +289,7 @@ h1 {
 .people_and_society img:hover {
   transform: scale(0.8);
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 992px) {
   .people_and_society img {
     width: 95%;
   }
@@ -364,7 +364,7 @@ h1 {
 .culture_and_heritage img:hover {
   transform: scale(0.8);
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 992px) {
   .culture_and_heritage img {
     width: 95%;
   }
@@ -441,7 +441,7 @@ h1 {
 .power_and_politics img:hover {
   transform: scale(0.8);
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 992px) {
   .power_and_politics img {
     width: 95%;
   }
